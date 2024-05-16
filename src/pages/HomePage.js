@@ -4,6 +4,7 @@ import CaixaPedidosCo from '../components/CaixaPedidosCo';
 import CaixaGrafico from '../components/CaixaGrafico';
 import CaixaRendimento from '../components/CaixaRendimento';
 import BotaoAdd from '../components/BotaoAdd';
+import Profile from '../components/Profile';
 
 function HomePage() {
   return (
@@ -11,8 +12,13 @@ function HomePage() {
       <MenuLateral />
       <div className='flex flex-col mt-12 ml-20'>
         <div className='mb-10'>
-          <div className=''>
-          <BotaoAdd/>
+          <div className='flex gap-3'>
+              <div className='flex'>
+                 <Profile/>
+              </div>
+             <div className='flex'>
+                <BotaoAdd/>
+              </div>
           </div>
         </div>
         <div className="flex items-center">

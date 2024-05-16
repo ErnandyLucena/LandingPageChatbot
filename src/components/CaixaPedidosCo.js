@@ -1,10 +1,17 @@
 import React from 'react';
+import './CaixaPedidosCo.css'; // Importa o arquivo CSS para estilização
+import './BotaoPedido'; // Importa o arquivo CSS para estilização
+import BotaoPedido from './BotaoPedido';
 
 const CaixaPedidosCo = () => {
   return (
-    <div style={{ width: '500px', height: '525px' }} className="bg-orange-500 p-4 rounded-lg shadow-lg">
-      <h1 className="text-xl font-bold"></h1>
-      {/* Aqui ficará a lista de pedidos */}
+    <div className="caixa-pedidos-co">
+      <h1 className="text-3xl flex justify-start m-6 text-white">Pedidos</h1>
+      {/* Adicione seus cards de pedido aqui */}
+      <div className=''>
+        <BotaoPedido/>
+        
+      </div>
     </div>
   );
 };

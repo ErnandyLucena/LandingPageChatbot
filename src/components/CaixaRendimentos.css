@@ -1,0 +1,49 @@
+.CaixaRendeimentos {
+    background-color: #ff7300;
+    border-radius: 40px;
+    box-shadow: 5px 5px 14px rgba(160, 85, 0, 0.61);
+    width: 100%; /* Largura total em telas pequenas */
+    margin: 0 auto; /* Centraliza o componente */
+    padding: 20px;
+    margin-right: 13px;
+}
+
+/* Telas pequenas */
+@media (max-width: 767px) {
+    .CaixaRendeimentos {
+        width: 20rem; /* Largura fixa em telas médias */
+        height: 20rem; /* Altura fixa em telas médias */
+    }
+}
+
+/* Telas médias */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .CaixaRendeimentos {
+        width: 25rem; /* Largura fixa em telas médias */
+        height: 22rem; /* Altura fixa em telas médias */
+    }
+}
+
+/* Telas grandes */
+@media (min-width: 1700px) and (max-width: 2000px) {
+    .CaixaRendeimentos {
+        width: 50rem; /* Largura fixa em telas grandes */
+        height: 22rem; /* Altura fixa em telas grandes */
+    }
+}
+
+/* Telas grandes */
+@media (min-width: 1501px) and (max-width: 1700px) {
+    .CaixaRendeimentos {
+        width: 45rem; /* Largura fixa em telas grandes */
+        height: 22rem; /* Altura fixa em telas grandes */
+    }
+}
+
+/* Telas grandes */
+@media (min-width: 1201px) and (max-width: 1499px) {
+    .CaixaRendeimentos {
+        width: 32rem; /* Largura fixa em telas grandes */
+        height: 20rem; /* Altura fixa em telas grandes */
+    }
+}

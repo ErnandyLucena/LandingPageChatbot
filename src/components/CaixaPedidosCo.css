@@ -1,0 +1,77 @@
+.caixa-pedidos-co {
+    background-color: #ff7300;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 14px rgba(160, 85, 0, 0.582);
+    width: 100%; /* Largura total em telas pequenas */
+    max-width: 40rem; /* Largura máxima de 30rem */
+    max-height: 50rem; /* Altura máxima de 30rem */
+    margin: 0 auto; /* Centraliza o componente */
+    overflow-y: auto; /* Adicione uma barra de rolagem vertical quando necessário */    
+    margin-right: 13px;
+}
+
+.linha {
+    height: 55px;
+    width: 1px;
+    background-color: rgb(94, 94, 94);
+}
+
+.caixa-pedidos-co::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+    height: 50%;
+  }
+  
+  .caixa-pedidos-co::-webkit-scrollbar-thumb {
+    background-color: #ce6300; /* Cor do polegar da barra de rolagem */
+    border-radius: 50px;
+  }
+  
+  /* Personaliza a barra de rolagem no Firefox */
+  .caixa-pedidos-co::-moz-scrollbar {
+    width: 15px; /* Largura da barra de rolagem */
+  }
+  
+  .caixa-pedidos-co::-moz-scrollbar-thumb {
+    background-color: #ff0000; /* Cor do polegar da barra de rolagem */
+  }
+
+/* Telas pequenas */
+@media (max-width: 767px) {
+    .caixa-pedidos-co {
+        width: 20rem; /* Largura fixa em telas médias */
+        height: 15rem; /* Altura fixa em telas médias */
+    }
+}
+
+/* Telas médias */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .caixa-pedidos-co {
+        width: 25rem; /* Largura fixa em telas médias */
+        height: 45rem; /* Altura fixa em telas médias */
+    }
+}
+
+/* Telas grandes */
+@media (min-width: 1201px) and (max-width: 1499px) {
+    .caixa-pedidos-co {
+        width: 28rem; /* Largura fixa em telas grandes */
+        height: 41rem; /* Altura fixa em telas grandes */
+    }
+}
+
+
+
+@media (min-width: 1500px) and (max-width: 1700px) {
+    .caixa-pedidos-co {
+        width: 30rem; /* Largura fixa em telas grandes */
+        height: 45rem; /* Altura fixa em telas grandes */
+    }
+}
+
+@media (min-width: 1701px) and (max-width: 2000px) {
+    .caixa-pedidos-co {
+        width: 35rem; /* Largura fixa em telas grandes */
+        height: 45rem; /* Altura fixa em telas grandes */
+    }
+}
