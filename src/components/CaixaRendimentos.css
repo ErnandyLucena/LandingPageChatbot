@@ -35,15 +35,15 @@
 /* Telas grandes */
 @media (min-width: 1501px) and (max-width: 1700px) {
     .CaixaRendeimentos {
-        width: 45rem; /* Largura fixa em telas grandes */
-        height: 22rem; /* Altura fixa em telas grandes */
+        width: 38rem; /* Largura fixa em telas grandes */
+        height: 17rem; /* Altura fixa em telas grandes */
     }
 }
 
 /* Telas grandes */
 @media (min-width: 1201px) and (max-width: 1499px) {
     .CaixaRendeimentos {
-        width: 32rem; /* Largura fixa em telas grandes */
-        height: 20rem; /* Altura fixa em telas grandes */
+        width: 30rem; /* Largura fixa em telas grandes */
+        height: 17rem; /* Altura fixa em telas grandes */
     }
 }

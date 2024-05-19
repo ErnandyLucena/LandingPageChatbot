@@ -56,7 +56,7 @@
 @media (min-width: 1201px) and (max-width: 1499px) {
     .caixa-pedidos-co {
         width: 28rem; /* Largura fixa em telas grandes */
-        height: 41rem; /* Altura fixa em telas grandes */
+        height: 35rem; /* Altura fixa em telas grandes */
     }
 }
 
@@ -64,8 +64,8 @@
 
 @media (min-width: 1500px) and (max-width: 1700px) {
     .caixa-pedidos-co {
-        width: 30rem; /* Largura fixa em telas grandes */
-        height: 45rem; /* Altura fixa em telas grandes */
+        width: 29rem; /* Largura fixa em telas grandes */
+        height: 35rem; /* Altura fixa em telas grandes */
     }
 }
 
