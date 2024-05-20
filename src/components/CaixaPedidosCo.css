@@ -2,7 +2,7 @@
     background-color: #ff7300;
     padding: 20px;
     border-radius: 40px;
-    box-shadow: 5px 5px 14px rgba(160, 85, 0, 0.582);
+    box-shadow: 3px 3px 10px rgba(105, 65, 0, 0.396);
     width: 100%; /* Largura total em telas pequenas */
     max-width: 40rem; /* Largura máxima de 30rem */
     max-height: 50rem; /* Altura máxima de 30rem */
@@ -65,7 +65,7 @@
 @media (min-width: 1500px) and (max-width: 1700px) {
     .caixa-pedidos-co {
         width: 29rem; /* Largura fixa em telas grandes */
-        height: 35rem; /* Altura fixa em telas grandes */
+        height: 34rem; /* Altura fixa em telas grandes */
     }
 }
 

@@ -23,7 +23,7 @@ const CaixaPedidosCo = () => {
 
   return (
     <div className="caixa-pedidos-co">
-      <h1 className="text-3xl flex justify-start m-6 text-white">Pedidos</h1>
+      <h1 className="text-3xl flex justify-start m-6 font-medium text-white">Pedidos</h1>
       <div>
         {pedidos.map((pedido) => (
           <BotaoPedido

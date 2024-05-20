@@ -1,8 +1,8 @@
 .CaixaRendeimentos {
     background-color: #ff7300;
     border-radius: 40px;
-    box-shadow: 5px 5px 14px rgba(160, 85, 0, 0.61);
     width: 100%; /* Largura total em telas pequenas */
+    box-shadow: 3px 3px 10px rgba(105, 65, 0, 0.396);
     margin: 0 auto; /* Centraliza o componente */
     padding: 20px;
     margin-right: 13px;
