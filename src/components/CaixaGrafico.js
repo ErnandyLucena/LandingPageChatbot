@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Chart from 'chart.js/auto';
 import axios from 'axios';
-import './CaixaGraficos.css'; // Importa o arquivo CSS para estilização
+import './CaixaGraficos.css'; 
 
 const GraficoPedidos = () => {
   const [data, setData] = useState([]);
@@ -24,7 +24,7 @@ const GraficoPedidos = () => {
     const renderChart = () => {
       const ctx = chartRef.current;
       if (ctx) {
-        // Destrói o gráfico anterior se já existir
+        
         if (chartRef.current && chartRef.current.chart) {
           chartRef.current.chart.destroy();
         }
@@ -41,10 +41,10 @@ const GraficoPedidos = () => {
             datasets: [{
               label: 'Quantidade de Pedidos',
               data: dataValues,
-              backgroundColor: 'rgba(255, 255, 255, 1)', // Fundo branco do gráfico
+              backgroundColor: 'rgba(255, 255, 255, 1)', 
               borderWidth: 1,
-              borderColor: 'rgba(255, 255, 255, 1)', // Borda branca
-              color: '#ffffff', // Cor do texto (branco)
+              borderColor: 'rgba(255, 255, 255, 1)', 
+              color: '#ffffff', 
             }]
           },
           options: {
@@ -53,19 +53,19 @@ const GraficoPedidos = () => {
                 beginAtZero: true,
                 precision: 0,
                 ticks: {
-                  color: 'rgba(255, 255, 255, 1)', // Cor das legendas do eixo Y (branco)
+                  color: 'rgba(255, 255, 255, 1)', 
                 },
               },
               x: {
                 ticks: {
-                  color: 'rgba(255, 255, 255, 1)', // Cor das legendas do eixo X (branco)
+                  color: 'rgba(255, 255, 255, 1)', 
                 },
               },
             },
             plugins: {
               legend: {
                 labels: {
-                  color: '#ffffff', // Cor do texto da legenda (branco)
+                  color: '#ffffff', 
                 },
               },
             },
